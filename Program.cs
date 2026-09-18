@@ -62,6 +62,18 @@ internal class Program
         Console.WriteLine(genre03);
         Console.WriteLine(Flag);
         #endregion
+        Console.WriteLine("---------------------------------");
+
+        #region 9th answer
+        if (Flag)
+        {
+            Console.WriteLine(genre03);
+        }
+        else
+        {
+            Console.WriteLine("unknown genre");
+        }
+        #endregion
     }
 }
 
