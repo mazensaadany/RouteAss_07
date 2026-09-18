@@ -39,6 +39,13 @@ internal class Program
         Console.WriteLine((int)Genre.NonFiction);
         Console.WriteLine((int)Genre.Science);
         #endregion
+        Console.WriteLine("---------------------------------");
+
+        #region 6th answer
+        int genreNumber = 1;
+        Genre genre = (Genre)genreNumber;
+        Console.WriteLine(genre);
+        #endregion
     }
 }
 
