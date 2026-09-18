@@ -14,6 +14,15 @@ internal class Program
         #endregion
         Console.WriteLine("---------------------------------");
 
+        #region 2nd answer
+        Console.WriteLine(book.copiesInStock);
+
+        //This will work because copiesInStock is
+        //internal and can be accessed within the same assembly
+        #endregion
+        Console.WriteLine("---------------------------------");
+
+       
     }
 }
 
