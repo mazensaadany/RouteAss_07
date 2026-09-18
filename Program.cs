@@ -28,7 +28,12 @@ internal class Program
         #endregion
         Console.WriteLine("---------------------------------");
 
-       
+        #region 4th answer
+        book.BookGenre = Genre.Science;
+        Console.WriteLine(book.BookGenre);
+        #endregion
+        Console.WriteLine("---------------------------------");
+
     }
 }
 
