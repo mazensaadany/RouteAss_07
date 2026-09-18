@@ -1,10 +1,19 @@
-﻿namespace RouteAss_07
+﻿namespace RouteAss_07;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        #region 1st answer
+        Book book = new Book();
+        //Console.WriteLine(book.Password);
+
+        //compile error because Password is
+        //private and cannot be accessed
+        //outside of the class
+        #endregion
+        Console.WriteLine("---------------------------------");
+
     }
 }
+
