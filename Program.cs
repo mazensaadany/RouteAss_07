@@ -34,6 +34,11 @@ internal class Program
         #endregion
         Console.WriteLine("---------------------------------");
 
+        #region 5th answer
+        Console.WriteLine((int)Genre.Fiction);
+        Console.WriteLine((int)Genre.NonFiction);
+        Console.WriteLine((int)Genre.Science);
+        #endregion
     }
 }
 
