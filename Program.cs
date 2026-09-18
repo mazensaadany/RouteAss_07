@@ -53,6 +53,15 @@ internal class Program
         string genreName = genre2.ToString();
         Console.WriteLine(genreName);
         #endregion
+        Console.WriteLine("---------------------------------");
+
+        #region 8th answer
+        string genreText = "mystery";
+        Genre genre03;
+        bool Flag = Enum.TryParse(genreText,true,out genre03);
+        Console.WriteLine(genre03);
+        Console.WriteLine(Flag);
+        #endregion
     }
 }
 

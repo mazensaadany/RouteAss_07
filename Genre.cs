@@ -3,10 +3,10 @@ namespace RouteAss_07
 {
     internal enum Genre
     {
-        Fiction,
+        Fiction=1,
 
-        NonFiction,
+        NonFiction=2,
 
-        Science
+        Science=3
     }
 }
